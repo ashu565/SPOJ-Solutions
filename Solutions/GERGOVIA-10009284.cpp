@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<iostream>
 #include<cmath>
+#define REP(i,n) for(i=0;i<n;i++)
 using namespace std;
 
 int main()
@@ -12,7 +13,7 @@ int main()
         scanf("%d",&n);
         if(n==0){break;}
         sum=ans=0;
-        for(i=0;i<n;i++)
+        REP(i,n)
         {
             scanf("%d",&x);
             sum+=x;
